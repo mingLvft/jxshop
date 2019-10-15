@@ -1,0 +1,8 @@
+[ 2019-09-06T09:43:26+08:00 ] 127.0.0.1 /Admin/Role/disfetch/role_id/3.html
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `jx_role_rule` (`role_id`,`rule_id`) VALUES ('3'),('3'),('3'),('3'),('3'),('3'),('3'),('3')
+
+[ 2019-09-06T11:20:12+08:00 ] 127.0.0.1 /Admin/Login/login
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_admin` WHERE ( username = admin ) LIMIT 1  
+

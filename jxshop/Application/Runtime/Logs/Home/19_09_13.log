@@ -1,0 +1,12 @@
+[ 2019-09-13T18:00:33+08:00 ] 127.0.0.1 /home/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is sale=1 and cx_price>0 and start<1568368833and end>1568368833 ) LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is sale=1 and cx_price>0 and start<1568368833and end>1568368833 ) LIMIT 5  
+
+[ 2019-09-13T18:02:37+08:00 ] 127.0.0.1 /home/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is sale=1 and cx_price>0 and start<1568368957 and end>1568368957 ) LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is sale=1 and cx_price>0 and start<1568368957 and end>1568368957 ) LIMIT 5  
+
+[ 2019-09-13T18:02:38+08:00 ] 127.0.0.1 /home/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is sale=1 and cx_price>0 and start<1568368958 and end>1568368958 ) LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is sale=1 and cx_price>0 and start<1568368958 and end>1568368958 ) LIMIT 5  
+

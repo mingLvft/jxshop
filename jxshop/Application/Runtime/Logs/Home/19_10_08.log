@@ -1,0 +1,94 @@
+[ 2019-10-08T15:14:07+08:00 ] 127.0.0.1 /Category/index.html?id=1&sort=&price=&attr=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011032s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SELECT max(shop_price) as max_price,min(shop_price) as min_price,count(id) as goods_count,group_concat(id) as goods_ids FROM `jx_goods` WHERE ( is_sale = 1 and cate_id in(2,11,12,9,10,1) ) LIMIT 1   [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0043s ]
+SQL: SELECT distinct a.attr_id,a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id in (1,2,3,4,5,6) )  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( is_sale = 1 and cate_id in(2,11,12,9,10,1) ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cate_id in(2,11,12,9,10,1) ) ORDER BY sale_number desc LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: price D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Common\Common\function.php 第 31 行.
+NOTIC: [2] Use of undefined constant sale_number - assumed 'sale_number' (this will throw an Error in a future version of PHP) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Runtime\Cache\Home\d47f7e8b5d40353c26583cfdcb9e3b02.php 第 407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2019-10-08T15:14:07+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2019-10-08T15:24:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and is_hot = 1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and is_rec = 1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and is_new = 1 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1570519446 and end>1570519446 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id = 0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id =1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id =1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11,12,2) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id =3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id =3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (5) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id =6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id =6 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+

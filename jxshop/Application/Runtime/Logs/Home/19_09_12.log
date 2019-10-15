@@ -1,0 +1,117 @@
+[ 2019-09-12T08:56:18+08:00 ] 127.0.0.1 /Home/Index/index
+ERR: Think\Model:getnewGoods方法不存在！
+
+[ 2019-09-12T08:56:30+08:00 ] 127.0.0.1 /Home/Index/index
+ERR: Think\Model:getnewGoods方法不存在！
+
+[ 2019-09-12T08:57:15+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=5
+ERR: 无法加载控制器:Goods
+
+[ 2019-09-12T08:57:18+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=4
+ERR: 无法加载控制器:Goods
+
+[ 2019-09-12T09:12:19+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=1
+ERR: 非法操作:index.htmlgoods_id=1
+
+[ 2019-09-12T09:12:22+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=1
+ERR: 非法操作:index.htmlgoods_id=1
+
+[ 2019-09-12T09:12:25+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=1
+ERR: 非法操作:index.htmlgoods_id=1
+
+[ 2019-09-12T09:14:22+08:00 ] 127.0.0.1 /Goods/index.htmlgoods_id=1
+ERR: 非法操作:index.htmlgoods_id=1
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/global.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome//PublicHome/style/base.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/header.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/bottomnav.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/common.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/goods.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/footer.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/style/jqzoom.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/js/header.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/js/goods.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:14:52+08:00 ] 127.0.0.1 /PublicHome/js/jqzoom-core.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome//PublicHome/style/base.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/header.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/goods.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/global.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/common.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/bottomnav.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/footer.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/style/jqzoom.css
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/js/jqzoom-core.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/js/goods.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/js/header.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:23+08:00 ] 127.0.0.1 /PublicHome/js/goods.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:15:24+08:00 ] 127.0.0.1 /PublicHome/js/jqzoom-core.js
+ERR: 无法加载控制器:PublicHome
+
+[ 2019-09-12T09:23:40+08:00 ] 127.0.0.1 /Goods/index/goods_id/3.html
+ERR: XML标签语法错误
+
+[ 2019-09-12T09:32:18+08:00 ] 127.0.0.1 /Goods/index/goods_id/1.html
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and goods_id = 1 ) LIMIT 1  
+
+[ 2019-09-12T09:32:38+08:00 ] 127.0.0.1 /Goods/index/goods_id/5.html
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and goods_id = 5 ) LIMIT 1  
+
+[ 2019-09-12T09:32:39+08:00 ] 127.0.0.1 /Goods/index/goods_id/1.html
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and goods_id = 1 ) LIMIT 1  
+

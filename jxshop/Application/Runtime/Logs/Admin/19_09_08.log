@@ -1,0 +1,15 @@
+[ 2019-09-08T02:02:35+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: Think\Controller:D方法不存在！
+
+[ 2019-09-08T02:07:55+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 1146:Table 'jxshop.jx_role_role' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jx_role_role`
+
+[ 2019-09-08T02:07:55+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 1146:Table 'jxshop.jx_role_role' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jx_role_role`
+
+[ 2019-09-08T02:07:55+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 1146:Table 'jxshop.jx_role_role' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jx_role_role`
+

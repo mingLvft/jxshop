@@ -1,0 +1,47 @@
+[ 2019-09-27T15:58:22+08:00 ] 127.0.0.1 /Goods/index/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011201s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 400 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and id = 3 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id = 3 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id = 3 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: uniqid D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Home\Controller\GoodsController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: sigle D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Home\Controller\GoodsController.class.php 第 43 行.
+NOTIC: [2] Declaration of Home\Model\CommentModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 62 行.
+NOTIC: [2] Declaration of Home\Model\CommentModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_comment` WHERE ( goods_id = 3 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.username FROM jx_comment a left join jx_user as b on a.user_id = b.id  WHERE ( a.goods_id=3 ) LIMIT 0,3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jx_impression` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `jx_impression` WHERE ( goods_id =3 ) LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: goods_addtime D:\phpStudy\PHPTutorial\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2019-09-27T15:58:23+08:00 ] 127.0.0.1 /Public/Home/images/zoomloader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2019-09-27T15:58:24+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+

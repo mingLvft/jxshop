@@ -1,0 +1,33 @@
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/base.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/global.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/header.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/index.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/bottomnav.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/style/footer.css
+ERR: 非法操作:style
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/js/jquery-1.8.3.min.js
+ERR: 非法操作:js
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/js/header.js
+ERR: 非法操作:js
+
+[ 2019-09-11T11:36:28+08:00 ] 127.0.0.1 /Home/Index/js/index.js
+ERR: 非法操作:js
+
+[ 2019-09-11T11:54:17+08:00 ] 127.0.0.1 /Goods/index
+ERR: 无法加载控制器:Goods
+
+[ 2019-09-11T15:15:04+08:00 ] 127.0.0.1 /Home/Category/index
+ERR: XML标签语法错误
+
